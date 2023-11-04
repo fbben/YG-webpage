@@ -1,0 +1,78 @@
+/* Set-up: */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(31, 30, 30);
+}
+
+/* Header: */
+
+ul {
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+    /* All the items in one line. */
+    list-style-type: none;
+    /* No disc. */
+    margin: 0;
+    padding: 20px;
+}
+
+ul a {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(202, 171, 18, 0.838);
+    text-decoration: none;
+}
+
+ul .logo {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-right: auto;
+    /* All other items'll go to right: About... */
+
+}
+
+/* Content */
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.title {
+    margin-top: 200px;
+    color: rgba(202, 171, 18, 0.838);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.box {
+    margin: 20px;
+    padding: 10x;
+    background-color: rgba(202, 171, 18, 0.838);
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    /* Text Properties: */
+    color: rgb(31, 30, 30);
+    font-size: large;
+    /* flex: */
+    flex-shrink: 1;
+}
+
+/* Footer: */
+
+.foot {
+    color: rgba(202, 171, 18, 0.838);
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 250px;
+
+}
